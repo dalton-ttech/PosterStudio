@@ -1,0 +1,37 @@
+# Private brand/source assets
+private/
+
+# Local project outputs
+projects/
+library/
+brands/
+
+# Generated media
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.tiff
+*.psd
+*.ai
+
+# Keep docs/examples that may intentionally include images
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+!examples/**/*.png
+!examples/**/*.jpg
+!examples/**/*.jpeg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
